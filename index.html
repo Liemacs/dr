@@ -1,18 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
     <title>Form Example</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css">
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <form id="myForm">
-        <label for="inputField">Lorem, ipsum dolor.</label>
-        <input type="text" id="inputField">
-        <button type="submit">Submit</button>
-    </form>
+
+   
+
+    <div class="container">
+      <div class="text" >С Днём Рождения, Машуня! </div> 
+      
+      <div class="presents">
+        <div class="present orange" onclick="openPopUp('orange')">
+          <div class="lid"></div>
+          <div class="box"></div>
+          <div class="number">6</div>
+          <div class="bow"></div>
+          <div class="ribbon"></div>
+        </div>
+        <div class="present blue" onclick="openPopUp('blue')">
+          <div class="lid"></div>
+          <div class="box"></div>
+          <div class="number">7</div>
+          <div class="bow"></div>
+          <div class="ribbon"></div>
+        </div>
+        <div class="present green" onclick="openPopUp('green')">
+          <div class="lid"></div>
+          <div class="box"></div>
+          <div class="number">2</div>
+          <div class="bow"></div>
+          <div class="ribbon"></div>
+        </div>
+      </div>
+    </div>
 
     <!-- <div id="errorContainer" class="errorContainer"></div> -->
 
     <script src="main.js"></script>
+</body>
+</html>
+
+    
 </body>
 </html>
